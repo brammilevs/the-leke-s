@@ -1,0 +1,140 @@
+
+
+body{
+  background-color:whitesmoke;
+  color: white;
+  line-height: 1.2;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1rem;
+  
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.web{
+  background-color:  rgb(106, 69, 69);
+}
+
+
+/* Header and Navigation Styles */
+header {
+ 
+  color:#E18E1A;
+  padding: 20px 0;
+  margin-bottom: -20px;
+  align-items: center;
+  overflow: hidden;
+}
+header img{
+  display: block;
+  max-width:779px;
+  max-height: 436px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+ 
+}
+
+
+header  {
+  width: 100%;
+  margin: 0, auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1rem;
+ 
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+ 
+  
+}
+
+nav ul li {
+  margin:1rem;
+  color:#E18E1A;
+
+}
+nav ul li a:hover {
+  text-decoration: overline;
+  color: orange;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+
+
+/* Main Content Styles */
+main {
+  padding: 20px 0;
+  width: 100%;
+ 
+}
+main img{
+  width: 100%;
+  position: relative;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+ 
+}
+main img:hover{
+  opacity: 1;
+}
+h2{
+  position: absolute;
+  top: 40%;           
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  color:#efdbbf;         
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  margin: 0; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.4rem;
+  text-align: center;
+  text-transform: uppercase; 
+}     
+
+
+.projectOne{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+  padding-inline: 5rem;
+  padding-block: 0.7rem;
+  color: #ffff;
+  background-color:#E18E1A;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  
+
+  
+}
+.projectOne:hover{
+  background-color: #393126;
+ 
+}
+.boxed{
+  border-color: #E18E1A;
+  border: solid;
+  border-style: dashed;
+ 
+  
+}
